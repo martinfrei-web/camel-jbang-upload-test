@@ -1,0 +1,8 @@
+- route:
+    from:
+      uri: platform-http:/server/upload
+      parameters:
+        httpMethodRestrict: POST
+        useStreaming: true
+      steps:
+        - log: Uploaded!
